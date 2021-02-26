@@ -3,7 +3,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 120%;
+	font-size: 1.2em;
 }
 
 a {
@@ -42,5 +42,6 @@ nav li {
 
 @media (max-width: 600px) {
   body {
-    font-size: 1.5;
+    font-size: 1.5em;
+  	}
   }
