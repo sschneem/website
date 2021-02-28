@@ -2,6 +2,7 @@
 <html lang="en">
 	<meta charset="utf8">
 	<head>
+		<link rel="icon" href="data:,">
 		<link rel="stylesheet" href="style.css">
 		<title>simon schneemelcher</title>
 	</head>
