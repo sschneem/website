@@ -16,7 +16,14 @@
 			</ul>
 		</nav>
 		<?php
-			include 'entries/index.html';
+
+			foreach (glob("entries/*.html") as $filename)
+			{
+				echo '<div class="entry">';
+				include $filename;
+				echo '</div>';
+			}
 		?>
+		
 	</body>
 </html>
