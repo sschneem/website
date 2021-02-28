@@ -14,6 +14,8 @@
       				<li><a href="mailto:schneemelchercom@gmail.com">contact</a></li>
 			</ul>
 		</nav>
-		<p>nothing to see yet...</p>
+		<?php
+			include 'entries/index.html';
+		?>
 	</body>
 </html>
