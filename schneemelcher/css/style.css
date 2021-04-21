@@ -1,0 +1,22 @@
+@import "nord.css";
+
+body {
+  background-color: var(--nord6);
+  color: var(--nord3);
+}
+
+#navbar {
+	background-color: var(--nord0);
+}
+
+a {
+	color: var(--nord15);
+}
+
+nav .a{
+	color: var(--nord4);
+}
+
+#current {
+	color: var(--nord5);
+}

@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="style.css">
 		<title>simon schneemelcher</title>
 	</head>
-	<body>	
+	<body>
 		<nav>
    			<ul>
      				<li><a href="https://schneemelcher.com">home</a></li>
@@ -15,15 +15,6 @@
       				<li><a href="mailto:schneemelchercom@gmail.com">contact</a></li>
 			</ul>
 		</nav>
-		<?php
-
-			foreach (glob("entries/*.html") as $filename)
-			{
-				echo '<div class="entry">';
-				include $filename;
-				echo '</div>';
-			}
-		?>
 		
 	</body>
 </html>
